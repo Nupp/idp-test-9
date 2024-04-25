@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: idp-test-9
+  description: New Java component
+  tags:
+    - java
+    - wfdemo
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Nupp/idp-test-9
+spec:
+  type: service
+  owner: null
+  lifecycle: null
+  system: Project_Demo>
